@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Roboto Black;
+    font-display: fallback;
+    src: url(Roboto-Black.ttf) format('woff2');
+}
+@font-face {
+    font-family: Roboto BlackItalic;
+    font-display: fallback;
+    src: url(Roboto-BlackItalic.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto Bold;
+    font-display: fallback;
+    src: url(Roboto-Bold.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto BoldItalic;
+    font-display: fallback;
+    src: url(Roboto-BoldItalic.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto Italic;
+    font-display: fallback;
+    src: url(Roboto-Italic.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto Light;
+    font-display: fallback;
+    src: url(Roboto-Light.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto LightItalic;
+    font-display: fallback;
+    src: url(Roboto-LightItalic.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto Medium;
+    font-display: fallback;
+    src: url(Roboto-Medium.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto MediumItalic;
+    font-display: fallback;
+    src: url(Roboto-MediumItalic.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Roboto Regular;
+    font-display: fallback;
+    src: url(Roboto-Regular.ttf) format('woff2');
+}
+
+@font-face {
+	font-family: Roboto Thin;
+	font-display: fallback;
+	src: url(Roboto-Thin.ttf) format('woff2');
+}
+@font-face {
+	font-family: Roboto ThinItalic;
+	font-display: fallback;
+	src: url(Roboto-ThinItalic.ttf) format('woff2');
+}
+
+/* ---- RobotoSlab fonts start -----*/
+
+@font-face {
+	font-family: RobotoSlab Bold;
+	font-display: fallback;
+	src: url(RobotoSlab-Bold.ttf) format('woff2');
+}
+@font-face {
+	font-family: RobotoSlab Light;
+	font-display: fallback;
+	src: url(RobotoSlab-Light.ttf) format('woff2');
+}
+@font-face {
+	font-family: RobotoSlab Regular;
+	font-display: fallback;
+	src: url(RobotoSlab-Regular.ttf) format('woff2');
+}
+@font-face {
+	font-family: RobotoSlab Thin;
+	font-display: fallback;
+	src: url(RobotoSlab-Thin.ttf) format('woff2');
+}
+
+/*Lato Fonts Starts*/
+@font-face {
+    font-family: Lato-Regular;
+    font-display: fallback;
+    src: url(Lato-Regular.ttf) format('woff2');
+}
+@font-face {
+    font-family: Lato-Bold;
+    font-display: fallback;
+    src: url(Lato-Bold.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Lato-Medium;
+    font-display: fallback;
+    src: url(Lato-Medium.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: Lato-Semibold;
+    font-display: fallback;
+    src: url(Lato-Semibold.ttf) format('woff2');
+}
+/*Lato Fonts Ends*/
+
+/* ------ Raleway Fonts start -------*/
+
+@font-face {
+	font-family: Raleway Black;
+	font-display: fallback;
+	src: url(Raleway-Black.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway BlackItalic;
+	font-display: fallback;
+	src: url(Raleway-BlackItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Bold;
+	font-display: fallback;
+	src: url(Raleway-Bold.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway BoldItalic;
+	font-display: fallback;
+	src: url(Raleway-BoldItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway ExtraBold;
+	font-display: fallback;
+	src: url(Raleway-ExtraBold.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway ExtraBoldItalic;
+	font-display: fallback;
+	src: url(Raleway-ExtraBoldItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway ExtraLight;
+	font-display: fallback;
+	src: url(Raleway-ExtraLight.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway ExtraLightItalic;
+	font-display: fallback;
+	src: url(Raleway-ExtraLightItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Heavy;
+	font-display: fallback;
+	src: url(Raleway-Heavy.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Italic;
+	font-display: fallback;
+	src: url(Raleway-Italic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Light;
+	font-display: fallback;
+	src: url(Raleway-Light.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway LightItalic;
+	font-display: fallback;
+	src: url(Raleway-LightItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Medium;
+	font-display: fallback;
+	src:url(Raleway-Medium.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway MediumItalic;
+	font-display: fallback;
+	src:url(Raleway-MediumItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Regular;
+	font-display: fallback;
+	src:url(Raleway-Regular.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway SemiBold;
+	font-display: fallback;
+	src:url(Raleway-SemiBold.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway SemiBoldItalic;
+	font-display: fallback;
+	src:url(Raleway-SemiBoldItalic.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway Thin;
+	font-display: fallback;
+	src:url(Raleway-Thin.ttf) format('woff2');
+}
+@font-face {
+	font-family: Raleway ThinItalic;
+	font-display: fallback;
+	src:url(Raleway-ThinItalic.ttf) format('woff2');
+}

@@ -1,0 +1,373 @@
+@extends('layouts.masterNew')
+@section('content')
+<style>
+    hr{
+        border: 1px solid #efefef;
+        height: 0px;
+        margin: 0px;
+    }
+    .input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover {
+        outline:none;
+    }
+</style>
+
+
+
+
+
+<!--QCF Landing page Starts-->
+<div class="qcf-landing-page">
+
+<!--Slider Top Section Starts-->
+<div class="slider-top-section">
+    <div class="container">
+        <div class="row no-margin">
+            <div class="col-xs-12 no-padding">
+
+                <div class="slider-top-inner">
+                    <img src="{{asset('public/images/trustpilot-slider-top.png')}}" class="img-responsive" alt=""/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Slider Top Section Ends-->
+
+<!--Slider Section Starts-->
+<div class="slider-section landing-slider-desktop">
+    <div id="wrap">
+        <div id="showcase">
+            <img src="{{asset('public/images/car-1.png')}}" alt="I WANT A CAR" class="cloud9-item">
+            <img src="{{asset('public/images/car-1.png')}}" alt="I WANT A BIKE" class="cloud9-item">
+            <img src="{{asset('public/images/car-1.png')}}" alt="I WANT A TRUCK" class="cloud9-item">
+            <img src="{{asset('public/images/car-1.png')}}" alt="I WANT A SUV" class="cloud9-item">
+        </div>
+
+        <!--<p id="item-title">&nbsp;</p>-->
+        <!--<p id="item-title" class="btn-slider-bottom text-center">&nbsp;</p>-->
+
+        <div class="slider-bottom-btn-outer text-center">
+            <a href="#" id="item-title" class="btn-slider-bottom text-center">&nbsp</a>
+        </div>
+
+        <div class="nav noselect">
+            <button class="left"><img src="{{asset('public/images/icon-arrow-left-gray.png')}}" class="img-responsive" alt=""/></button>
+            <button class="right"><img src="{{asset('public/images/icon-arrow-right-gray.png')}}" class="img-responsive" alt=""/></i></button>
+        </div>
+
+    </div>
+</div>
+<!--Slider Section Ends-->
+
+
+<!--Slider Section Starts-->
+<div class="slider-section landing-slider-mobile">
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="{{asset('public/images/car-1.png')}}" class="img-responsive" alt=""/>
+                    <div class="slider-bottom-btn-outer text-center">
+                        <a href="#" class="btn-slider-bottom text-center">I WANT CAR</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{asset('public/images/car-1.png')}}" class="img-responsive" alt=""/>
+                    <div class="slider-bottom-btn-outer text-center">
+                        <a href="#" class="btn-slider-bottom text-center">I WANT TRUCK</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{asset('public/images/car-1.png')}}" class="img-responsive" alt=""/>
+                    <div class="slider-bottom-btn-outer text-center">
+                        <a href="#" class="btn-slider-bottom text-center">I WANT SUV</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <img src="{{asset('public/images/icon-arrow-left-gray.png')}}" class="img-responsive" alt=""/>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <img src="{{asset('public/images/icon-arrow-right-gray.png')}}" class="img-responsive" alt=""/>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </div>
+</div>
+<!--Slider Section Ends-->
+
+
+<!--Slider Bottom Section Starts-->
+<div class="slider-bottom-section">
+    <div class="container">
+        <div class="row d-flex-center no-margin">
+            <div class="col-xs-12 no-padding">
+
+                <!--<div class="slider-bottom-btn-outer text-center">
+                    <a href="#" class="btn-slider-bottom text-center">I want a Car</a>
+                </div>-->
+
+                <div class="slider-bottom-desc">
+                    <p class="text-center">
+                        Quick Car Finance has over 350 dealer partners who have thousands of vehicles to choose from, including domestic and import models.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Slider Bottom Section Ends-->
+
+<!--Get Approved Section Starts-->
+<div class="get-approved-section">
+    <div class="container">
+        <div class="get-approved-inner-section">
+            <div class="row d-flex-center no-margin">
+                <div class="col-xs-12 no-padding">
+
+                    <div class="row d-flex-center no-margin">
+
+                        <div class="col-md-6 col-xs-12">
+                            <div class="get-approved-left">
+                                <div class="get-approved-left-inner">
+                                    <div class="get-approved-left-title">
+                                        <h2>Get Approved from
+                                            Anywhere, Anytime</h2>
+                                    </div>
+                                    <div class="get-approved-left-desc">
+                                        <p>Complete our online application in minutes from the comfort of your own home. You will receive confirmation of your financing options without ever having to step foot inside a dealership. </p>
+                                    </div>
+                                </div>
+                                <div class="float"></div>
+                            </div>
+                        </div
+                            >
+                        <div class="col-md-6 col-xs-12">
+                            <div class="get-approved-right">
+                                <div class="get-approved-right-inner">
+                                    <img src="{{asset('public/images/get-approved-img.png')}}" class="img-responsive" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Get Approved Section Ends-->
+
+<!--Dashboard Review Starts-->
+<div class="dashboard-review">
+    <div class="container">
+        <div class="row no-margin d-flex-center">
+            <div class="col-sm-12 col-xs-11 no-padding text-center">
+
+                <div class="dashboard-review-title">
+                    <p>Reviews from people just like you:</p>
+                </div>
+
+                <div class="dashboard-review-box-main">
+                    <div class="row no-margin d-flex-center">
+                        <div class="col-sm-12 col-xs-11 no-padding">
+
+                            <div class="dashboard-review-box-inner">
+                                <div class="row no-margin d-flex-center">
+
+                                    <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                                        <div class="dashboard-review-box-outer dashboard-review-box-outer-1">
+                                            <div class="dashboard-review-box dashboard-review-box-1 d-flex-center">
+                                                <div class="review-box-excellent">
+                                                    <p>Excellent</p>
+                                                </div>
+                                                <div class="icon-stars-green-big">
+                                                    <img src="{{asset('public/images/icon-stars-green-big.png')}}" class="img-responsive" alt=""/>
+                                                </div>
+                                                <div class="icon-trustpilot">
+                                                    <img src="{{asset('public/images/icon-trustpilot.png')}}" class="img-responsive" alt=""/>
+                                                </div>
+                                                <div class="float"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                                        <div class="dashboard-review-box-outer">
+                                            <div class="dashboard-review-box dashboard-review-box-2">
+                                                <img src="{{asset('public/images/icon-stars-green-small.png')}}" class="img-responsive review-box-star-desktop" alt=""/>
+                                                <div class="dashboard-review-box-title">
+                                                    <p>A* service!!</p>
+                                                </div>
+                                                <div class="dashboard-review-box-desc">
+                                                    <p>Using quick car finance has been so easy and straight forward, Ian has been so...</p>
+                                                </div>
+                                                <img src="{{asset('public/images/icon-stars-green-small.png')}}" class="img-responsive review-box-star-mobile" alt=""/>
+                                                <div class="dashboard-review-box-name">
+                                                    <p>Kleran Harrison</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                                        <div class="dashboard-review-box-outer">
+                                            <div class="dashboard-review-box dashboard-review-box-3">
+                                                <img src="{{asset('public/images/icon-stars-green-small.png')}}" class="img-responsive review-box-star-desktop" alt=""/>
+                                                <div class="dashboard-review-box-title">
+                                                    <p>85% was through SMS...</p>
+                                                </div>
+                                                <div class="dashboard-review-box-desc">
+                                                    <p>85% was through SMS! Such an easy process Thanks so much for your help...</p>
+                                                </div>
+                                                <img src="{{asset('public/images/icon-stars-green-small.png')}}" class="img-responsive review-box-star-mobile" alt=""/>
+                                                <div class="dashboard-review-box-name">
+                                                    <p>Steven White</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                                        <div class="dashboard-review-box-outer">
+                                            <div class="dashboard-review-box dashboard-review-box-4">
+                                                <img src="{{asset('public/images/icon-stars-green-small.png')}}" class="img-responsive review-box-star-desktop" alt=""/>
+                                                <div class="dashboard-review-box-title">
+                                                    <p>I didn't think I would be...</p>
+                                                </div>
+                                                <div class="dashboard-review-box-desc">
+                                                    <p>I didn't think I would be accepted for finance given my credit past but they...</p>
+                                                </div>
+                                                <img src="{{asset('public/images/icon-stars-green-small.png')}}" class="img-responsive review-box-star-mobile" alt=""/>
+                                                <div class="dashboard-review-box-name">
+                                                    <p>Paul Williams</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Dashboard Review Ends-->
+
+<!--Apply Car Loan Starts-->
+<div class="apply-car-loan">
+    <div class="row d-flex-center no-margin">
+        <div class="col-sm-12 col-xs-11 no-padding">
+
+            <div class="apply-car-loan-title">
+                <h2 class="text-center">Apply for Your Car Loan</h2>
+            </div>
+            <div class="apply-car-loan-desc">
+                <p class="text-center">
+                    Your online application takes only 2 minutes to complete and we only ask for information we actually need.
+                </p>
+            </div>
+            <div class="apply-car-loan-btn-outer text-center">
+                <a href="#" class="text-center apply-car-loan-btn">get approved today</a>
+            </div>
+            <div class="apply-car-loan-bottom-desc">
+                <p class="text-center">or feel free to call us at <span>1-888-865-6402</span></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Apply Car Loan Ends-->
+
+</div>
+<!--QCF Landing page Ends-->
+
+
+<script type="text/javascript">
+
+    $(function() {
+        var showcase = $("#showcase")
+
+        showcase.Cloud9Carousel( {
+            yPos: 42,
+            yRadius: 48,
+            mirrorOptions: {
+                gap: 12,
+                height: 0.2
+            },
+            buttonLeft: $(".nav > .left"),
+            buttonRight: $(".nav > .right"),
+            autoPlay: true,
+            bringToFront: true,
+
+            onRendered: showcaseUpdated,
+            onLoaded: function() {
+                showcase.css( 'visibility', 'visible' )
+                showcase.css( 'display', 'none')
+                showcase.fadeIn( 1500 )
+            }
+        })
+
+        function showcaseUpdated( showcase ) {
+            var title = $("#item-title").html(
+                $(showcase.nearestItem()).attr( 'alt' )
+            )
+
+            var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI)
+            title.css('opacity', 0.5 + (0.5 * c))
+        }
+
+        $('.nav > button').click( function( e ) {
+            var b = $(e.target).addClass( 'down' )
+            setTimeout( function() { b.removeClass( 'down' ) }, 80)
+        } )
+
+        $(document).keydown( function( e ) {
+            switch( e.keyCode ) {
+                case 37:
+                    $('.nav > .left').click()
+                    break
+
+                case 39:
+                    $('.nav > .right').click()
+            }
+        })
+    })
+
+</script>
+
+
+<!--<script src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
+<!---->
+<!--<script type="text/javascript" src="{{asset('public/js/jquery.reflection.js')}}"></script>-->
+<!--<script type="text/javascript" src="{{asset('public/js/jquery.cloud9carousel.js')}}"></script>-->
+
+
+@endsection

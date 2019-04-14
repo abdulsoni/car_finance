@@ -1,0 +1,616 @@
+
+
+    .li-mobile-cta-phone {
+
+        padding: 24px 0 22px 22px;
+
+    }
+
+
+
+    .mobile-cta-phone {
+
+        width: 100%;
+
+       /* display: inline-block;*/
+
+    }
+
+
+
+    .mobile-cta-apply {
+
+        width: 100%;
+
+        padding: 5px 0px;
+
+       /* display: inline-block;
+
+        float: right;
+
+        margin-right: 20px;*/
+
+    }
+
+    ul.mobile-mmenu {
+
+    margin-top: 18px;
+
+}
+
+
+
+    #mob-nav-wrapper {
+
+        overflow: hidden;
+
+    }
+
+
+
+    label {
+
+        cursor: pointer;
+
+    }
+
+
+
+        label:focus {
+
+            outline: none;
+
+        }
+
+
+
+    .mmenu {
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        background: #ebebeb;
+
+        width: 100%;
+
+        height: 100%;
+
+        transform: translate3d(100%, 0, 0);
+
+        transition: transform 0.35s;
+
+    }
+    .intro {position: absolute !important;}
+
+
+
+        .mmenu label.mmenu-toggle {
+
+            position: absolute;
+
+            right: 0px;
+
+            width: 50px;
+
+            height: 50px;
+
+            line-height: 0px;
+
+            display: block;
+
+            padding: 0;
+
+            text-indent: -9999px;
+
+        }
+
+
+
+        .mmenu ul li a, .mmenu ul li label {
+
+            display: block;
+
+            text-align: left;
+
+            margin-left: 20px;
+
+            margin-right: 20px;
+
+            line-height: 38px;
+
+            text-decoration: none;
+
+            border-bottom: 1px solid #a0a0a0;
+
+            color: #203757;
+
+            font-size: 16px !important;
+
+            font-family: Roboto, sans-serif;
+
+            font-weight: normal;
+
+            padding-top: 11px;
+
+            background: transparent url(/Content/images/menu-chevron.png) no-repeat right 10px top 22px;
+
+            margin-bottom: 0;
+
+        }
+
+
+
+            .mmenu ul li a:hover, .mmenu ul li label:hover {
+
+                color: #666;
+
+            }
+
+
+
+    .mmenu-back {
+
+        position: absolute;
+
+        top: 20px;
+
+        left: 28px;
+
+        color: #a0a0a0;
+
+        background: transparent url(/Content/images/menu-chevron-left.png) no-repeat left 3px;
+
+        padding-left: 19px;
+
+    }
+
+
+
+    li.droppable a:focus {
+
+        color: #a0a0a0;
+
+        text-decoration: none;
+
+    }
+
+
+
+    li.droppable a:hover {
+
+        color: #203757;
+
+    }
+
+
+
+    /* hide inputs */
+
+    .mmenu-checkbox, .submenu-checkbox {
+
+        display: none;
+
+    }
+
+
+
+    /* hide navigation icon for sublabels */
+
+    .mmenu .mmenu label.mmenu-toggle {
+
+        background: none;
+
+        border: none;
+
+    }
+
+
+
+    /* fade in checked mmenu */
+
+    .mmenu-checkbox:checked ~ .mmenu {
+
+        transform: translate3d(0, 0, 0);
+
+        z-index: 999999;
+
+    }
+
+
+
+    .submenu-checkbox:checked ~ .tertiary-menu {
+
+        display: block;
+
+    }
+
+
+
+    .submenu-checkbox:checked ~ .submenu-label {
+
+        font-weight: bold;
+
+        background: transparent url('/Content/images/menu-chevron-open.png') no-repeat 146px 18px;
+
+    }
+
+
+
+    .mmenu-checkbox:checked body < .mmenu-banner {
+
+        height: 50vh;
+
+    }
+
+
+
+    /** Animations **/
+
+    .mmenu-checkbox:checked + .mmenu-container .cheesburger .top-bun {
+
+        transform: rotate(-45deg);
+
+        margin-top: 22px;
+
+    }
+
+
+
+    .mmenu-checkbox:checked + .mmenu-container .cheesburger .bottom-bun {
+
+        opacity: 0;
+
+        transform: rotate(45deg);
+
+    }
+
+
+
+    .mmenu-checkbox:checked + .mmenu-container .cheesburger .meat {
+
+        transform: rotate(45deg);
+
+        margin-top: -3px;
+
+    }
+
+
+
+    .mmenu-checkbox:checked + .mmenu-container .cheesburger {
+
+        top: 0;
+
+        transform: scale(1);
+
+    }
+
+
+
+    .mobile-mmenu {
+        position: absolute;
+        width: 100%;
+
+        background-color: #fff;
+
+        padding-left: 0;
+
+        margin-bottom: 0;
+
+        border-bottom: 1px solid #a0a0a0;
+
+    }
+
+
+
+    .m3, .m4 {
+
+        margin-top: 50px;
+
+    }
+
+
+
+    .m4 {
+
+        height: 70vh;
+
+    }
+
+
+
+    .mobile-mmenu li {
+
+        list-style-type: none;
+
+    }
+
+
+
+    .mm {
+
+        margin-top: 60px;
+
+        height: 0px;
+
+    }
+
+
+
+    .mmenu-banner {
+
+        /*position: absolute;*/
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 80px;
+
+        background-color: #1c2834;
+
+        border-bottom: 1px solid #d6d6d6;
+
+    }
+
+
+
+    .tertiary-menu {
+
+        display: none;
+
+        padding-left: 0;
+
+        margin-top: 0 !important;
+
+        float: none !important;
+
+        margin-bottom: 0px;
+
+    }
+
+
+
+        .tertiary-menu li a {
+
+            padding-left: 20px;
+
+            font-size: 13px;
+
+        }
+
+
+
+.apply-btn2 {
+
+    border: none;
+
+    text-align: center;
+
+}
+
+.apply-btn2 a {
+
+    color: fff;
+
+    text-decoration: none;
+
+    text-align: center;
+
+}
+
+    .apply-container {
+
+        position: absolute;
+
+        top: 8px;
+
+        right: 62px;
+
+    }
+
+
+
+    .apply-title {
+
+        font-size: 8px;
+
+        color: #fff;
+
+    }
+
+
+
+    .apply-top {
+
+        margin-top: 6px;
+
+        height: 18px;
+
+        background: transparent url('/Content/images/apply-icon.png') no-repeat 50% 0;
+
+    }
+
+
+
+    .apply-btn-mobile {
+
+        text-transform: none;
+
+        height: 38px;
+
+        padding-top: 8px;
+
+        font-family: Roboto, sans-serif;
+
+        font-size: 14px;
+
+        border-radius: 8px;
+
+        width: 60px;
+
+        margin-top: 17px;
+
+        background: #db0a5b;
+
+    }
+
+    .apply-btn-mobile:hover{background: #db0a5b;}
+
+
+
+    .menu-btn-mobile {
+
+        text-transform: none;
+
+        height: 48px;
+
+        padding-top: 12px;
+
+        font-family: Roboto, sans-serif;
+
+        font-size: 15px;
+
+        border-radius: 8px;
+
+        font-weight: bold;
+
+    }
+
+
+
+    .mmenu-container {
+
+        position: absolute;
+
+        float: right;
+
+        top: 8px;
+
+        right: 19px;
+
+        z-index: 5;
+
+
+
+    }
+
+    .icon-font-25{
+
+        font-size: 25px;
+
+        margin-top: 0; 
+
+    }
+
+
+
+    #toggle {
+
+        display: none;
+
+    }
+
+
+
+    .cheesburger {
+
+   /*  position: absolute; 
+
+    right: 5%;
+
+     margin-bottom: -2em; 
+
+    width: 2em;
+
+    height: 45px;
+
+     width: 45px; 
+
+    z-index: 5;*/
+
+    margin-bottom: -4em;
+
+    padding: 10px 0;
+
+}
+
+
+
+        .cheesburger div {
+
+            position: relative;
+
+            width: 21px;
+
+            height: 3px;
+
+            background-color: #fff;
+
+            margin-top: 4px;
+
+            transition: all 0.3s ease-in-out;
+
+        }
+
+
+
+    /* END OF NEW MOBILE NAVIGATION */
+
+
+
+    /* #Browser Clearfix */
+
+
+
+    .cf:before,
+
+    .cf:after {
+
+        content: " "; /* 1 */
+
+        display: table; /* 2 */
+
+    }
+
+
+
+    .cf:after {
+
+        clear: both;
+
+    }
+
+    /* car finance page styles */
+
+    div.col-sm-8.col-md-9 div.row div.col-md-6 section.section-no-padding div.richText {
+
+        position: absolute;
+
+    }
+
+
+
+        div.col-sm-8.col-md-9 div.row div.col-md-6 section.section-no-padding div.richText a h2 {
+
+            margin-top: 160px;
+
+            text-align: center;
+
+            font-weight: bold;
+
+            text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #fff,0px 0px 10px #fff;
+
+        }
+
+
+
+    div.col-sm-8.col-md-9 div.row div.col-md-6 section.section-no-padding a div.btn.call-to-action-btn.secondary-btn-centered {
+
+        display: none;
+
+    }

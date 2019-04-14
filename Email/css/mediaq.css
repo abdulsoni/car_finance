@@ -1,0 +1,154 @@
+@media screen and (max-width: 1920px)
+{
+}
+
+@media screen and (max-width: 1366px)
+{
+}
+
+@media screen and (max-width: 1200px)
+{
+}
+
+@media screen and (max-width: 1198px)
+{
+}
+
+@media screen and (max-width: 1124px)
+{
+}
+
+@media screen and (max-width: 1110px)
+{
+}
+
+@media screen and (max-width: 1024px)
+{
+}
+
+@media screen and (max-width: 991px)
+{
+}
+
+@media screen and (max-width: 767px)
+{
+}
+
+@media screen and (max-width: 720px)
+{
+}
+
+@media screen and (max-width: 600px)
+{
+    .email-container-fluid
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px)
+{
+    header
+    {
+        height: auto;
+    }
+    header .header-right-section
+    {
+        padding: 17px 0px 0px 0px !important;
+    }
+    .header-call
+    {
+        padding: 10px 0px 0px 0px !important;
+    }
+    .step-box:before
+    {
+        left: 1px;
+        right: 1px;
+        top: 0.8px;
+    }
+    .copyright-section br
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    .email-container
+    {
+        width: 90%;
+    }
+    .email-container-small
+    {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 480px)
+{
+}
+
+@media screen and (max-width: 450px)
+{
+}
+
+@media screen and (max-width: 430px)
+{
+    .three-step-heading h3
+    {
+        font-size: 1.2rem;
+    }
+    .slider-title
+    {
+        font-size: 1.6rem;
+    }
+    .slider-text-p
+    {
+        font-size: 0.97rem;
+        line-height: 22px;
+    }
+    .three-step-heading h3 br,
+    .gap-insurance-title p br
+    {
+        display: none;
+    }
+    .step-box:before
+    {
+        height: 98.2%;
+    }
+    .memberarea-list-section ul
+    {
+        margin-left: 18%;
+    }
+}
+@media screen and (max-width: 412px)
+{
+}
+
+@media screen and (max-width: 376px)
+{
+    .step-box:before
+    {
+        width: 99%;
+        height: 98.2%;
+    }
+    .memberarea-list-section ul
+    {
+        margin-left: 16%;
+    }
+}
+
+@media screen and (max-width: 361px)
+{
+    .memberarea-list-section ul
+    {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 321px)
+{
+    .memberarea-list-section ul
+    {
+        margin-left: 11%;
+    }
+}

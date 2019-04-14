@@ -1,0 +1,276 @@
+/**
+* asRange v0.3.4
+* https://github.com/amazingSurge/jquery-asRange
+*
+* Copyright (c) amazingSurge
+* Released under the LGPL-3.0 license
+*/
+.asRange {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  /* border: 1px solid #ccc; */
+}
+.asRange .asRange-pointer {
+  position: absolute;
+  left: 30%;
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+.asRange .asRange-pointer:before {
+  position: absolute;
+  top: -9px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  content: "";
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 28px;
+  height: 28px;
+  /*border-radius: inherit;*/
+}
+.asRange .asRange-pointer:after {
+  position: absolute;
+  top: -4.5px;
+  right: 0px;
+  bottom: 0;
+  left: 4px;
+  content: "";
+  background: #db0a5b;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border:none;
+  /*border-radius: inherit;*/
+}
+
+.asRange .asRange-pointer {
+  position: absolute;
+  left: 30%;
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+.rangeInput>.asRange .asRange-pointer:before {
+  position: absolute;
+  top: -11px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  content: "";
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 28px;
+  height: 28px;
+  /*border-radius: inherit;*/
+}
+.rangeInput>.asRange .asRange-pointer:after {
+  position: absolute;
+  top: -6.9px;
+  right: 0px;
+  bottom: 0;
+  left: 4px;
+  content: "";
+  background: #db0a5b;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border:none;
+  /*border-radius: inherit;*/
+}
+
+.asRange .asRange-pointer.start {
+  left: 0;
+  margin-left: 4px;
+}
+.asRange .asRange-pointer.stop {
+  left: 100%;
+  margin-left: -12px;
+}
+.asRange .asRange-pointer .asRange-tip {
+  position: absolute;
+  top: -41px;
+  left: 0;
+  width: 80px;
+  height: 27px;
+  margin-left: -26px;
+  font-family: Bpreplay;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  background-color: #1f2732;
+  border: 1px solid #1f2732;
+  border-radius: 3px;
+  -webkit-transition: opacity .3s ease-in-out 0s;
+  transition: opacity .3s ease-in-out 0s;
+}
+.asRange .asRange-pointer .asRange-tip:before {
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  content: "";
+  background-color: #1f2732;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.asRange .asRange-selected {
+  position: absolute;
+  left: 30%;
+  z-index: 1;
+  width: 40%;
+  height: 7px;
+  /*background-color: #7ebdcb;*/
+  /*background: -webkit-gradient(linear,top left ,bottom left ,from(#45a9ff),to(#2777bb));*/
+  /*background: linear-gradient(#45a9ff,#2777bb);*/
+  background-image: linear-gradient(to right, #3ebcdc, #54a9da , #758cd8 , #9076d6, #a266d4);
+  border-radius: 3px;
+}
+.asRange .asRange-scale {
+  display: none;
+}
+.rangeInput>.asRange{
+  height: 6px;
+}
+.rangeInput>.asRange>.asRange-selected{
+  height: 6px;
+  border-radius: 2px;
+}
+
+.asRange-scale {
+  position: relative;
+  width: 331px;
+  height: 8px;
+  background-color: #cfcdc7;
+  border-radius: 8px;
+}
+.asRange-scale .asRange-pointer {
+  position: absolute;
+  left: 30%;
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+.asRange-scale .asRange-pointer:before {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  background: #6ba1ad;
+  border-radius: inherit;
+}
+.asRange-scale .asRange-pointer:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: #fff;
+  border-radius: inherit;
+}
+.asRange-scale .asRange-pointer.start {
+  left: 0;
+  margin-left: 4px;
+}
+.asRange-scale .asRange-pointer.stop {
+  left: 100%;
+  margin-left: -12px;
+}
+.asRange-scale .asRange-pointer .asRange-tip {
+  position: absolute;
+  top: -33px;
+  left: 0;
+  width: 36px;
+  height: 20px;
+  margin-left: -15px;
+  font-family: Bpreplay;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #5d5c58;
+  border: 1px solid #5d5c58;
+  border-radius: 3px;
+  -webkit-transition: opacity .3s ease-in-out 0s;
+  transition: opacity .3s ease-in-out 0s;
+}
+.asRange-scale .asRange-pointer .asRange-tip:before {
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  content: "";
+  background-color: #5d5c58;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.asRange-scale .asRange-selected {
+  position: absolute;
+  left: 30%;
+  z-index: 1;
+  width: 40%;
+  height: 8px;
+  background-color: #7ebdcb;
+  border-radius: 9px;
+}
+.asRange-scale .asRange-scale {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: url("../image/scale.png") no-repeat 0 center transparent;
+}
+.asRange-scale .asRange-scale li {
+  position: absolute;
+  top: 18px;
+  width: 30px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  margin-left: -15px;
+  text-align: center;
+}
+.asRange-scale .asRange-scale li:first-child {
+  left: 0;
+}
+.asRange-scale .asRange-scale li:nth-child(2) {
+  left: 33.3%;
+}
+.asRange-scale .asRange-scale li:nth-child(3) {
+  left: 66.6%;
+}
+.asRange-scale .asRange-scale li:last-child {
+  left: 100%;
+}
